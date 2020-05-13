@@ -81,7 +81,18 @@ footer {
 @media screen and (max-width: 767px) {
     .sidenav {
         height: auto;
-        padding: 15px;
+        position: relative;
+        padding: 0px;
+        margin: 0px;
+    }
+    .adminpanel{
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
     }
     .row.content {height: auto;} 
 
